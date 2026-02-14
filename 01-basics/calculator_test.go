@@ -93,11 +93,10 @@ func TestPower(t *testing.T) {
 	}
 }
 
-
-func TestCalculatorMultipleOperations(t *testing.T){
+func TestCalculatorMultipleOperations(t *testing.T) {
 	calc := Calculator{}
 
-	sum := calc.Add(10,5)
+	sum := calc.Add(10, 5)
 	result := calc.Multiply(sum, 2)
 	expected := 30
 
